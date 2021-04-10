@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Recommendations">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:id="@+id/mname"
+        android:textStyle="bold"
+        android:textColor="#65daf7"
+        android:background="#ccff66"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:text="Recommended movies are displayed here"
+        android:id="@+id/recmovies"
+        android:textColor="#ed6bb9"
+        android:scrollbars="vertical"
+        android:background="#ccff66"/>
+
+</LinearLayout>

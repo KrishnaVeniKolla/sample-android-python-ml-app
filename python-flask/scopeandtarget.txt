@@ -1,0 +1,32 @@
+Scope
+Recommender systems became an independent research area in the mid 90’s. and have attracted multiple disciplines
+such as mathematics ,physics and computer science. The increasing popularity of social media has greatly enriched
+people’s social life. Real life applications like product recommender in amazon , movie recommender in Netflix
+and amazon prime, twitter, facebook, linkedin etc.
+1.Work on several numbers of data:
+The number of choices for anything on internet is very high and it’s too long to refine most wanted data by self while searching. 
+The scope of this proposal system includes working within numerous data, with ease.
+
+2.Saving of time:
+Many people have problem selecting the alternative item of movie due to lack of time and due to search issues. 
+Also movie recommendations from friends can be time consuming. The system helps in saving lots of time.
+
+3.Relief from processor problem:
+Many mobile phone and limited processing power computers can’t handle recommender system due to its extremely large dataset. 
+The solution opted for this can be use of web services. The proposed system uses web services, thus makes process simpler.
+
+Target
+The target of our proposed system is to recommend appropriate movies to the users according to the ratings of the other users provided. 
+This needs consistent updates in the database. The target requires colloborative filtering task.
+
+[K-means is one of the simplest unsupervised learning algorithms that solve the well-a set through a certain number of clusters.
+ The goal of this algorithm is to find groups work of data, with the number of groups represented by the variable K. 
+The algorithm works iteratively to assign each data point to one of groups based on the features that are provided.
+
+Thus the goal of our system is to implement K-means clustering algorithm for sensible movie recommendations to newly and previously registered users, 
+intake of the reviews (ratings and comments) from each user and updating the database or the cluster each time a review is taken.]
+  
+
+
+
+replace the above k-means description with colloborative filtering introduction
