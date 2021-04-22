@@ -23,7 +23,7 @@ def home():
 #@app.route("/recommend",methods=['POST','GET'])
 @app.route('/predict',methods=['POST'])
 def predict():
-    movie = request.json('movie')
+    movie = request.json['movie']
     movie=str(movie)
     #print(movie)
     r = rcmd(movie)
